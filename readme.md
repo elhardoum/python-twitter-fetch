@@ -14,6 +14,8 @@ Or use the requirements.txt file.
 
 ## Usage
 
+Open `app/config.py` and place in your Twitter app credentials.
+
 Here you have 4 scripts to use as a CLI tool. The arguments can be either passed to the command or manually entered for required ones.
 
 `python3 xx.py --{arg-name}={value}`
