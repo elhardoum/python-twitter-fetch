@@ -49,12 +49,12 @@ def checkWritable(path):
 
 def writeToFile(path, data):
     try:
-        checkWritable(path);
+        checkWritable(path)
     except e:
-        print ( 'Could not save to file, err: %s\ndata: %s' % (e, data) );
-        return;
+        print ( 'Could not save to file, err: %s\ndata: %s' % (e, data) )
+        return
     
     with open(path, 'w') as fopen:
-        fopen.write(str(data)+'\n');
+        fopen.write(str(data)+'\n')
 
-    return True;
+    return True

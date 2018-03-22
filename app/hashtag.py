@@ -73,7 +73,7 @@ def serve():
                         pass
                     total+=1
             else:
-                break;
+                break
 
             if not 'max-page' in opt or opt['max-page'] <= i+1:
                 break
