@@ -47,7 +47,6 @@ def serve():
         checkWritable( opt['save-to'] )
 
     print ( 'Processing data for #%s' % ', #'.join(hashtags) )
-    exit()
 
     qs = '#' + '+OR+#'.join(hashtags)
     api = api()
